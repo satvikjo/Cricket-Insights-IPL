@@ -1,0 +1,155 @@
+/* Add this to your style.css file */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Georgia, sans-serif;
+    background-image: url('background.jpg');
+    background-size: 100%; /* Cover the entire background */
+    background-repeat: no-repeat; /* Do not repeat the background image */
+}
+
+.heading-section {
+    text-align: center;
+    width: 100%;
+}
+
+    .heading-section h1 {
+        color: black;
+        font-family: Cambria;
+    }
+
+.navbar {
+    background-color: #333;
+    overflow: hidden;
+    display: flex;
+    justify-content: flex-start;
+    padding: 0 20px;
+    font-family: inherit; /* Use the default font for the navbar */
+}
+
+    .navbar a, .navbar .dropbtn {
+        float: left;
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+        background-color: #333; /* Added to ensure consistency in the background */
+        font-family: inherit; /* Use the default font for links */
+    }
+
+        .navbar a:hover, .navbar .dropdown:hover .dropbtn {
+            background-color: #555;
+        }
+
+.dropdowns-container {
+    display: flex;
+    justify-content: center; /* Center the items horizontally */
+    margin-top: 20px; /* Add some space at the top */
+}
+
+.dropdown {
+    margin: 0 10px; /* Add space between dropdowns */
+}
+
+.content-section {
+    display: flex;
+    align-items: center;
+    margin: 20px 0; /* Adjust top and bottom margins as needed */
+    padding: 0; /* Remove padding to allow full width for children */
+}
+
+.ipl-description {
+    margin-left: 20px;
+    flex: 1; /* Allows the description to grow and occupy the leftover space */
+    padding-right: 20px; /* Increase padding-right if necessary for space between text and image */
+    text-align: justify; /* Justifies the text inside the description */
+    margin-right: 20px; /* Add margin to the right of the description to keep space from the image */
+}
+
+.image-section {
+    flex: 0 0 30%; /* Assigns 30% width to the image section */
+    padding-left: 5px; /* Adjust the padding-left value to move the image to the left */
+    padding-right: 10px; /* Ensures no additional padding is added to the right of the image */
+}
+
+.ipl-image {
+    width: 80%; /* Ensures the image takes up the full width of its container */
+    height: auto; /* Maintains the aspect ratio */
+}
+
+
+input[type="submit"] {
+    margin-left: 10px; /* Add margin to separate the button from the dropdowns */
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer-links {
+    margin-top: 5px;
+}
+
+    .footer-links a {
+        margin: 0 5px;
+        display: inline-block;
+    }
+
+    .footer-links img {
+        width: 30px; /* Adjust size as needed */
+        height: 30px; /* Adjust size as needed */
+        vertical-align: middle;
+    }
+
+.footer a {
+    color: white;
+    text-decoration: none;
+    margin: 0 5px;
+}
+
+    .footer a:hover {
+        text-decoration: underline;
+    }
+
+/* styles.css */
+
+.table-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Set height to full viewport height */
+    background-color: #f1f1f1; /* Light gray background */
+    color: white; /* White font color */
+}
+
+.styled-table {
+    border-collapse: collapse; /* Collapse borders */
+    width: 80%; /* Set table width to 80% of the container */
+    margin: auto; /* Center the table horizontally */
+    border: 1px solid #ddd; /* Light gray border */
+    border-radius: 5px; /* Rounded corners */
+    overflow: hidden; /* Hide overflow content */
+    font-family: Arial, sans-serif; /* Set font family */
+    font-size: 14px; /* Set font size */
+}
+
+    .styled-table th {
+        background-color: #333; /* Dark gray background for table headers */
+        color: white; /* White font color for table headers */
+        font-weight: bold; /* Bold font weight for table headers */
+        text-align: left; /* Align text to the left */
+    }
+
+    .styled-table td {
+        background-color: white; /* White background for table cells */
+        color: black; /* Black font color for table cells */
+        text-align: left; /* Align text to the left */
+    }

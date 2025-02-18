@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Indian Premier League</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="heading-section">
+        <h1>INDIAN PREMIER LEAGUE</h1>
+    </div>
+    <nav class="navbar">
+        <a href="main.html" id="overview">Overview</a>
+    </nav>
+
+    <div class="content-section">
+        <div class="ipl-description">
+            <p>One of the key factors behind the IPL's success is its innovative franchise-based model. Unlike traditional cricket tournaments, where teams represent countries or regions, IPL teams are based in cities and are owned by a mix of industrialists, celebrities, and corporate entities. This model has not only added a competitive edge to the tournament but has also created a sense of local pride and identity among fans.</p>
+        </div>
+        <div class="image-section">
+            <img src="ipl.png" alt="IPL Image" class="ipl-image">
+        </div>
+    </div>
+
+    <div class="dropdowns-container">
+        <div class="dropdown">
+            <label for="seasons">Select a Season:</label>
+            <select id="seasons">
+                <option value="0">All Time </option>
+                <option value="1">Season 1</option>
+                <option value="2">Season 2</option>
+                <option value="3">Season 3</option>
+                <option value="4">Season 4</option>
+                <option value="5">Season 5</option>
+                <option value="6">Season 6</option>
+                <option value="7">Season 7</option>
+                <option value="8">Season 8</option>
+                <option value="9">Season 9</option>
+                <option value="10">Season 10</option>
+                <option value="11">Season 11</option>
+                <option value="12">Season 12</option>
+                <option value="13">Season 13</option>
+                <option value="14">Season 14</option>
+                <option value="15">Season 15</option>
+                <option value="16">Season 16</option>
+            </select>
+        </div>
+        <div class="dropdown">
+            <label for="stats">Select a Stat:</label>
+            <select id="stats">
+                <option value="highest_scores">Most Runs</option>
+                <option value="most_fours">Most Fours</option>
+                <option value="most_sixes">Most Sixes</option>
+                <option value="most_wickets">Most Wickets</option>
+            </select>
+        </div>
+
+        <div>
+            <button id="submit-button" type="button">Submit</button>
+        </div>
+    </div>
+
+    <div id="table-container"></div>
+
+    <footer>
+        <div class="footer-links">
+            <a href=https://www.instagram.com/iplt20><img src="instagram-logo.png" alt="Instagram"></a>
+            <a href="https://www.facebook.com/share/6bsBsg1UUB5Sycu9/?mibextid=LQQJ4d"><img src="facebook-logo.png" alt="Facebook"></a>
+            <a href="https://twitter.com/IPL"><img src="twitter-logo.png" alt="Twitter"></a>
+        </div>
+        <div class="copyright">
+            <p>&copy; Indian Premier League. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
