@@ -1,4 +1,3 @@
-Here’s your `README.md` file in Markdown format, preserving the structure of your original `Readme.txt`:  
 
 ```md
 # Cricket Match Insights: IPL Edition  
