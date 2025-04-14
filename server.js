@@ -7,7 +7,7 @@ const client = new Client({
     host: "localhost",
     user: "postgres",
     port: 5432,
-    password: "Chinnu1408@",
+    password: "###########",(password what you use normally)
     database: "dmql_project"
 });
 
