@@ -1,9 +1,8 @@
 
-```md
 # Cricket Match Insights: IPL Edition  
 
 ## Repository Structure  
-```
+
 DMQL Project  
 │  
 ├── public  
@@ -19,7 +18,7 @@ DMQL Project
 ├── server.js  
 ├── package-lock.json  
 └── package.json  
-```
+
 
 ## Description  
 The **DMQL Project** is a web application that provides **insights and statistics for IPL matches**.  
